@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        //TestGenerator generator = new TestGenerator();
+        TestGenerator generator = new TestGenerator();
 //        generator.generateUniformlyDistributedTest("C:\\Users\\Elizaveta\\OneDrive\\Рабочий стол\\Прога\\Java 2 сем\\semester-project-bucket-sort1\\test\\UniformlyDistributedTest1", 500);
 //        generator.generateUniformlyDistributedTest("C:\\Users\\Elizaveta\\OneDrive\\Рабочий стол\\Прога\\Java 2 сем\\semester-project-bucket-sort1\\test\\UniformlyDistributedTest2", 500);
 //        generator.generateUniformlyDistributedTest("C:\\Users\\Elizaveta\\OneDrive\\Рабочий стол\\Прога\\Java 2 сем\\semester-project-bucket-sort1\\test\\UniformlyDistributedTest3", 500);
@@ -21,10 +21,6 @@ public class Main {
 //        generator.generateUniformlyDistributedTest("C:\\Users\\Elizaveta\\OneDrive\\Рабочий стол\\Прога\\Java 2 сем\\semester-project-bucket-sort1\\test\\UniformlyDistributedTest13", 5000);
 //        generator.generateUniformlyDistributedTest("C:\\Users\\Elizaveta\\OneDrive\\Рабочий стол\\Прога\\Java 2 сем\\semester-project-bucket-sort1\\test\\UniformlyDistributedTest14", 5000);
 //        generator.generateUniformlyDistributedTest("C:\\Users\\Elizaveta\\OneDrive\\Рабочий стол\\Прога\\Java 2 сем\\semester-project-bucket-sort1\\test\\UniformlyDistributedTest15", 5000);
-//        generator.generateGaussianTest("C:\\Users\\Elizaveta\\OneDrive\\Рабочий стол\\Прога\\Java 2 сем\\semester-project-bucket-sort1\\test\\GaussianTest1", 500);
-//        generator.generateGaussianTest("C:\\Users\\Elizaveta\\OneDrive\\Рабочий стол\\Прога\\Java 2 сем\\semester-project-bucket-sort1\\test\\GaussianTest2", 1000);
-//        generator.generateGaussianTest("C:\\Users\\Elizaveta\\OneDrive\\Рабочий стол\\Прога\\Java 2 сем\\semester-project-bucket-sort1\\test\\GaussianTest3", 5000);
-
         List<Integer> unsorted = Arrays.asList(80, 50, 60, 434333333, 30, 20, 10, 70, 0, 40, 500, 600, 602, 200, 15);
         int[] array = {80, 50, 60, 434333333, 30, 20, 10, 70, 0, 40, 500, 600, 602, 200, 15};
         BucketSort bs = new BucketSort();
